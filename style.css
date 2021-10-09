@@ -29,6 +29,11 @@ h1 {
     margin-top: 30px;
 }
 
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .links {
     display: flex;
     justify-content: center;
@@ -47,4 +52,8 @@ main {
     text-align: center;
     margin-top: 50px;
     font-size: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
