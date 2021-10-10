@@ -20,8 +20,8 @@
         <main>
             <h1>Project 3 - Martines Travel blog</h1>
             <div class="links">
-                <p>Link to Github</p>
-                <p>Link to project</p>
+                <a href="https://github.com/martineleirvik/Martines-travel-blog">Link to Github</a>
+                <a href="https://martinestravelblog-portfolio.netlify.app/">Link to Netlify</a>
             </div>
 
             <h2>What was changed</h2>
@@ -32,10 +32,10 @@
                 <li>Change of javascript method for the show more button</li>
             </ul>
 
-            <h2>Why I did it that way & How I changed it</h2>
-            <p>The form only had a simple validation, so even if it passed validation, the users inputs was still displayed on the form and not resetting. In javascript I added true or false statements to the validation function. And when submitting, if the all the inputs are true it passes validation, the form will reset. And I also added a message when the form is submitted with innerHTML. I did it that way so the user understands that the inputs were valid and everything went fine. When it resets and a message appears, the user can understand that the form is sendt and valid. </p>
-            <p></p>
-            <p></p>
+            <h2>Why I did it that way & how I changed it</h2>
+            <p>The form only had a simple validation, so even if it passed validation, the users inputs was still displayed on the form and not resetting. In javascript I added true or false statements to the validation function. And when submitting, if the all the inputs are true it passes validation, the form will reset. And I also added a message when the form is submitted with innerHTML. The same was as Project 1. I did it that way so the user understands that the inputs were valid, sendt and everything went fine. When it resets and a message appears, it increases the user excperience. </p>
+            <p>The search function was done with javascript. It started similar to fetching all the blogposts. I also exported and imported the looping and innerHTML from blogpost.js into search.js, so I did not have to do it twice. Then I made an onSubmit function that took care of the search value and then used that in the funcation that filtered content by search term. If it was a match the blogposts returns true, if not it returns false and nothing will appread. I also made the button "show more blogposts" disabled when the user searched. That for making a better user experience, so the user wont wonder if it is supposed to be clicked, and then nothing happens.  </p>
+            <p>I changes the design on the blogspesific.html page a little bit, so it looks a but smoother. The blogpost was before inside a solid line, which did not look very neat, so i vhanged it to be inside a box shadow instead. In this page I also added a "back to all blogposts" so the user dont need to click on the navigation each time. I thought that made a better user experience. </p>
             <p></p>
         </main>
         <footer>

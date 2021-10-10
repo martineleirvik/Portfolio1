@@ -20,25 +20,27 @@
         <main>
             <h1>Project 1 - Rainy Days</h1>
             <div class="links">
-                <p>Link to Github</p>
-                <p>Link to project</p>
+                <a href="https://github.com/martineleirvik/Rainydays-project">Link to Github</a>
+                <a href="https://rainydays-project.netlify.app">Link to Netlify</a>
             </div>
 
             <h2>What was changed</h2>
             <ul>
-                <li>Contact form</li>
                 <li>Navigation - hamburgermenu</li>
+                <li>Contact form</li>
                 <li>Homepage</li>
                 <li>Show more button</li>
                 <li>Footer</li>
                 <li>Fixed horizontal scrollbar</li>
             </ul>
 
-            <h2>How I changed it</h2>
-            <p></p>
-
-            <h2>Why I did it that way</h2>
-            <p></p>
+            <h2>How I changed it & why I did it that way</h2>
+            <p>This project had such bad coding and methods, so it was very hard to even know were to start. The one thing that was extremely bad was that it did not have a responsive header and navigation. It did not have a haburger menu in small screens. That was the most important thing to redo. Instead of making the hamburger menu with only html, css and a checkbox, I made it with javascript aswell. I got inspiration for the navigation from a youtuber, Dev Ed, from 2018. The hamburger lines are made with html. And when clicked they are animated in css with @keyframes, transform and translate. The nav bare also has a nice ease in transition in css and ease forwards when the hamburger-menu appear and disapear. In Javascript everything is inside a click-addeventlistener. I have set an if else statement, that if is empty the design is what I already have set, but else the animation will ease forward and the different text in the nav also has an animation so slide in at different times. I think this kind of navigation is much more user friendly and nice to interact with than the simple checkbox navigation on the other projects. So it was fun making this. The only bug is when the hamburger is animated to an x when hamburger is clicked. I was not able to make it an perfect shape x. Tried to fix it but, did not come up with a good solution, therefore is is a little croocked.</p>
+            <p>The contact form only had simple validation. So when the user passed validation the inputs was not cleared.  In javascript I added true or false statements to the validation function. And when submitting, if the all the inputs are true it passes validation, the form will reset. And I also added a message when the form is submitted with innerHTML. This is very important for the user excperience. Now the form wont leave any questions from the users side if the form was valid and sent or not.  </p>
+            <p>The original homepage was awful. Starting that project I did not understand that it is important to make the site responsive. So I just made it for one mobile screen and one deskop screen. That leaved a lot of bad design and frontface. So I had to made a total makeover for the frontpage. Instead of having "Shop men" and "Shop women" buttons wandering around the page when changing screen size, I added them to the navigation menu. And insted I added a simple carousel for "Shop latest news". I added the carousel so that the user gets an idea of what kind of jackets the shop has to offer. The carousel is made the same way I did with Project 3 for the exam. Using "element.scrollLeft" in javascript. Just setting button click to 200px each way. Very simple. </p>
+            <p>On the jacket list page I made an show more button, the same way I did it on the exam. Not the best way, but it works on a simple page. Break the loop and start the loop at the break when showmore button is clicked. Then when the button is clicked the button is disabled so the user understands there are no more jackets to look at. I think it is nice to have a show more button, to make users active on page and not have too many items on a page that can seem overwhelming.  </p>
+            <p>The page did not have a footer, so I added a simple footer to make it look better and more proffesional.</p>
+            <p>Feedback from tutor was I had a horizontal scrollbar on the About us page and checkout. The coding of design here is not very good and does not look good when thinking of the responsiveness. I made it so is not a scrollbar anymore, but when I look at the code, I dont understand what I was thinking. This project in general is really bad and hard to redo some things without starting all over. So if I had time I would do it all over again, but with the limited time it did not end that way.</p>
         </main>
         <footer>
             
